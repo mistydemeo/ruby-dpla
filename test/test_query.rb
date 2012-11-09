@@ -35,6 +35,8 @@ describe DPLA::Query do
     first_result = query.results.first
     query.next_page
     query.results.first.wont_equal first_result
+    query.rewind
+    query.results.first.must_equal first_result
   end
 
   it "should be enumerable" do
@@ -45,5 +47,20 @@ describe DPLA::Query do
     query = DPLA::Query.new params
     query.must_respond_to :each
     query.must_respond_to :map
+
+    results = query.results
+    query.each.first.must_equal results
+
+    query.rewind
+    query.next_page
+    results = query.results
+    enum = query.each
+    enum.next
+    enum.next.must_equal results
+  end
+
+  it "should raise when requested to fetch a page using a non-int" do
+    query = DPLA::Query.new :q => 'washington'
+    lambda {query.fetch_page 'foo'}.must_raise DPLA::ParameterError
   end
 end
