@@ -33,12 +33,16 @@ module DPLA
     def each
       return to_enum unless block_given?
       current_page = @page
+      current_response = @response
       rewind
 
       begin
         yield results
         next_page
       end while not results.empty?
+
+      @page = current_page
+      @response = current_response
     end
 
     def next_page
