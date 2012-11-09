@@ -12,7 +12,7 @@ module DPLA
 
     PARAMETERS = %w[
       title description creator type publisher format rights
-      contributor created spatial temporal source id q
+      contributor created spatial temporal source id q page_size
     ]
 
     def self.parameters_correct? params
@@ -24,7 +24,7 @@ module DPLA
 
       raise DPLA::ParameterError, "unrecognized parameter" unless Query.parameters_correct? parameters
       @parameters = parameters
-      @parameters[:page_size] = 100
+      @parameters[:page_size] ||= 100
 
       json = self.class.get('items', :body => parameters).body
       @response = JSON.parse(json)
