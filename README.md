@@ -1,4 +1,4 @@
-# Ruby::Dpla
+# ruby-dpla
 
 This is a very simple, fairly bare-bones gem allowing access to the DPLA API.
 
