@@ -35,14 +35,19 @@ module DPLA
       current_page = @page
       current_response = @response
       rewind
+      current_page = results
+      yield current_page
 
       begin
-        yield results
         next_page
-      end while not results.empty?
+        current_page = results
+        # this ensures that we don't unexpectedly mutate the response
+        # data if the user doesn't iterate the entire set of results at once
+        @page = current_page
+        @response = current_response
 
-      @page = current_page
-      @response = current_response
+        yield current_page
+      end while not current_page.empty?
     end
 
     def next_page
