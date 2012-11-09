@@ -6,8 +6,10 @@ This is a very simple, fairly bare-bones gem allowing access to the DPLA API.
 
 Right now:
 
+```
 rake build
 gem install pkg/ruby-dpla-0.0.1.gem
+```
 
 Eventually it'll be uploaded to rubygems.
 
