@@ -1,0 +1,2359 @@
+{
+    "count": 20,
+    "start": 0,
+    "limit": 10,
+    "docs": [
+        {
+            "ingestDate": "2013-04-14T12:10:52.046950",
+            "_rev": "1-e68a7e305de6e3c810f8b15bb2362827",
+            "id": "a121d53c7f971ee7f46c0f7040d949c1",
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://thoth.library.utah.edu:1701/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_uuu_11VE_Photos/4143",
+            "_id": "mwdl--digcoll_uuu_11VE_Photos/4143",
+            "dataProvider": "Uintah County (UT) Library",
+            "sourceResource": {
+                "title": "Acre Motor Lodge",
+                "spatial": [
+                    {
+                        "name": "Vernal (Utah)"
+                    }
+                ],
+                "description": "The old Acre Motor Lodge West of Vernal is demolished by the city and County. The ground has been leased and made into a picnic area, East of Burger King and West of the School park.",
+                "subject": [
+                    {
+                        "name": "Construction--Heavy Equipment"
+                    }
+                ],
+                "rights": "Digital Image,copyright 2003 Uintah County Library",
+                "isPartOf": "Vernal (UT) Express Photograph Collection",
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "collection": {
+                    "id": "fcd9663d450b786d938cc53ae732fa13",
+                    "title": "Mwdl",
+                    "@id": "http://dp.la/api/collections/fcd9663d450b786d938cc53ae732fa13"
+                },
+                "stateLocatedIn": [
+                    {
+                        "name": "UT"
+                    }
+                ],
+                "date": {
+                    "displayDate": "1965",
+                    "end": "1965",
+                    "begin": "1965"
+                },
+                "type": "image",
+                "identifier": "http://content.lib.utah.edu/u?/VE_Photos,4143"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/a121d53c7f971ee7f46c0f7040d949c1",
+            "object": "http://content.lib.utah.edu/utils/getthumbnail/collection/VE_Photos/id/4143",
+            "originalRecord": {
+                "PrimoNMBib": {
+                    "record": {
+                        "control": {
+                            "originalsourceid": "4143",
+                            "sourceid": "digcoll_uuu_11",
+                            "addsrcrecordid": "uuu-11-117-1047",
+                            "sourcedbandrecordid": "VE_Photos",
+                            "sourceformat": "Digital Entity",
+                            "recordid": "digcoll_uuu_11VE_Photos/4143",
+                            "sourcesystem": "Other",
+                            "sourcerecordid": "VE_Photos/4143"
+                        },
+                        "sort": {
+                            "title": "Acre Motor Lodge",
+                            "creationdate": "1965"
+                        },
+                        "addata": {
+                            "date": "1965",
+                            "pub": "Uintah County Library Regional History Center"
+                        },
+                        "search": {
+                            "lsr04": "1047",
+                            "lsr13": "Vernal (UT) Express Photograph Collection",
+                            "lsr12": "Uintah County (UT) Library",
+                            "lsr03": "117",
+                            "lsr02": "11",
+                            "lsr14": "Vernal (Utah)",
+                            "lsr01": "uuu",
+                            "scope": [
+                                "uu",
+                                "mw"
+                            ],
+                            "subject": "Construction--Heavy Equipment;",
+                            "lsr10": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "addsrcrecordid": "uuu-11-117-1047",
+                            "creationdate": "1965",
+                            "title": "Acre Motor Lodge",
+                            "description": "The old Acre Motor Lodge West of Vernal is demolished by the city and County. The ground has been leased and made into a picnic area, East of Burger King and West of the School park.",
+                            "sourceid": "digcoll_uuu_11",
+                            "lsr09": "University of Utah, J. Willard Marriott Library",
+                            "recordid": "digcoll_uuu_11VE_Photos/4143",
+                            "rsrctype": "images"
+                        },
+                        "facets": {
+                            "genre": "unknown",
+                            "prefilter": "images",
+                            "topic": "Construction--Heavy Equipment",
+                            "toplevel": "online_resources",
+                            "lfc01": "Vernal (UT) Express Photograph Collection",
+                            "format": "image/jpeg",
+                            "lfc02": "Uintah County (UT) Library",
+                            "collection": "Digital Collections",
+                            "lfc03": "University of Utah, J. Willard Marriott Library",
+                            "creationdate": "1965",
+                            "lfc04": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "lfc08": "Vernal (Utah)",
+                            "frbrtype": "6",
+                            "frbrgroupid": "120256061",
+                            "language": "eng",
+                            "rsrctype": "images"
+                        },
+                        "links": {
+                            "linktorsrc": "$$Tdigcoll_uuu_11_linktores$$DOpen resource in a new window",
+                            "thumbnail": "$$Tdigcoll_uuu_11_linktothumb$$DSee Thumbnail"
+                        },
+                        "display": {
+                            "subject": "Construction--Heavy Equipment;",
+                            "rights": "Digital Image,copyright 2003 Uintah County Library",
+                            "format": "image/jpeg",
+                            "type": "Image",
+                            "creationdate": "1965",
+                            "lds17": "image",
+                            "lds08": "Vernal (Utah);",
+                            "lds18": "Image",
+                            "publisher": "Uintah County Library Regional History Center",
+                            "title": "Acre Motor Lodge",
+                            "lds12": "Vernal Express Newspaper; B&W Copy Negative and Print; 6 cm x 6 cm",
+                            "lds02": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "coverage": "Vernal (Utah);",
+                            "lds01": "University of Utah, J. Willard Marriott Library",
+                            "lds04": "Vernal (UT) Express Photograph Collection",
+                            "description": "The old Acre Motor Lodge West of Vernal is demolished by the city and County. The ground has been leased and made into a picnic area, East of Burger King and West of the School park.",
+                            "lds03": "Uintah County (UT) Library",
+                            "language": "eng",
+                            "identifier": [
+                                "ucl_1219-06.tif",
+                                "http://content.lib.utah.edu/cdm/ref/collection/VE_Photos/id/4143"
+                            ]
+                        },
+                        "delivery": {
+                            "delcategory": "Online Resource",
+                            "institution": "MWDL"
+                        },
+                        "ranking": {
+                            "booster2": "1",
+                            "booster1": "1"
+                        }
+                    },
+                    "xmlns": "http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib"
+                },
+                "LINKS": {
+                    "linktorsrc": "http://content.lib.utah.edu/u?/VE_Photos,4143",
+                    "thumbnail": "http://content.lib.utah.edu/utils/getthumbnail/collection/VE_Photos/id/4143"
+                },
+                "RANK": "0.7996294",
+                "_id": "digcoll_uuu_11VE_Photos/4143",
+                "SEARCH_ENGINE_TYPE": "Local Search Engine",
+                "ID": "4168319",
+                "SEARCH_ENGINE": "Local Search Engine",
+                "GETIT": {
+                    "deliveryCategory": "Online Resource",
+                    "GetIt2": "http://sfx7.exlibrisgroup.com/uutah?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2013-04-14T10%3A08%3A57IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&rft_val_fmt=info:ofi/fmt:kev:mtx:&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=&rft.aulast=&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&rft.eisbn=&rft_dat=<digcoll_uuu_11>USHS_Class/10038</digcoll_uuu_11>&rft_id=info:oai/",
+                    "GetIt1": "http://content.lib.utah.edu/u?/USHS_Class,10038"
+                },
+                "NO": "605711"
+            },
+            "score": 1.16348
+        },
+        {
+            "ingestDate": "2013-04-12T23:15:01.406918",
+            "_rev": "1-69ef643707ab8a351d5914822d40dd26",
+            "id": "0a73968f053413b9bf6b334454f3d365",
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://thoth.library.utah.edu:1701/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_uuu_11VE_Photos/4138",
+            "_id": "mwdl--digcoll_uuu_11VE_Photos/4138",
+            "dataProvider": "Uintah County (UT) Library",
+            "sourceResource": {
+                "title": "Demolished Property",
+                "spatial": [
+                    {
+                        "county": "Uintah County",
+                        "name": "Vernal (Utah)",
+                        "state": "Utah",
+                        "coordinates": "40.4557113647, -109.528961182",
+                        "country": "United States"
+                    }
+                ],
+                "description": "The old Acre Motor West of Vernal is demolished by the City and County. The ground has been leased and made into a picnic area, east of Burger King and west of School ball park.",
+                "subject": [
+                    {
+                        "name": "Construction--Heavy Equipment"
+                    }
+                ],
+                "rights": "Digital Image,copyright 2003 Uintah County Library",
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "collection": {
+                    "id": "fcd9663d450b786d938cc53ae732fa13",
+                    "title": "Mwdl",
+                    "@id": "http://dp.la/api/collections/fcd9663d450b786d938cc53ae732fa13"
+                },
+                "stateLocatedIn": [
+                    {
+                        "name": "UT"
+                    }
+                ],
+                "isPartOf": "Vernal (UT) Express Photograph Collection",
+                "date": {
+                    "displayDate": "1965",
+                    "end": "1965",
+                    "begin": "1965"
+                },
+                "type": "image",
+                "identifier": "http://content.lib.utah.edu/u?/VE_Photos,4138"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "@id": "http://dp.la/api/items/0a73968f053413b9bf6b334454f3d365",
+            "ingestType": "item",
+            "object": "http://content.lib.utah.edu/utils/getthumbnail/collection/VE_Photos/id/4138",
+            "originalRecord": {
+                "PrimoNMBib": {
+                    "record": {
+                        "control": {
+                            "originalsourceid": "4138",
+                            "sourceid": "digcoll_uuu_11",
+                            "addsrcrecordid": "uuu-11-117-1047",
+                            "sourcedbandrecordid": "VE_Photos",
+                            "sourceformat": "Digital Entity",
+                            "recordid": "digcoll_uuu_11VE_Photos/4138",
+                            "sourcesystem": "Other",
+                            "sourcerecordid": "VE_Photos/4138"
+                        },
+                        "sort": {
+                            "title": "Demolished Property",
+                            "creationdate": "1965"
+                        },
+                        "addata": {
+                            "date": "1965",
+                            "pub": "Uintah County Library Regional History Center"
+                        },
+                        "search": {
+                            "lsr04": "1047",
+                            "lsr13": "Vernal (UT) Express Photograph Collection",
+                            "lsr12": "Uintah County (UT) Library",
+                            "lsr03": "117",
+                            "lsr02": "11",
+                            "lsr14": "Vernal (Utah)",
+                            "lsr01": "uuu",
+                            "scope": [
+                                "uu",
+                                "mw"
+                            ],
+                            "subject": "Construction--Heavy Equipment;",
+                            "lsr10": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "addsrcrecordid": "uuu-11-117-1047",
+                            "creationdate": "1965",
+                            "title": "Demolished Property",
+                            "description": "The old Acre Motor West of Vernal is demolished by the City and County. The ground has been leased and made into a picnic area, east of Burger King and west of School ball park.",
+                            "sourceid": "digcoll_uuu_11",
+                            "lsr09": "University of Utah, J. Willard Marriott Library",
+                            "recordid": "digcoll_uuu_11VE_Photos/4138",
+                            "rsrctype": "images"
+                        },
+                        "facets": {
+                            "genre": "unknown",
+                            "topic": "Construction--Heavy Equipment",
+                            "prefilter": "images",
+                            "toplevel": "online_resources",
+                            "lfc01": "Vernal (UT) Express Photograph Collection",
+                            "format": "image/jpeg",
+                            "lfc02": "Uintah County (UT) Library",
+                            "collection": "Digital Collections",
+                            "lfc03": "University of Utah, J. Willard Marriott Library",
+                            "creationdate": "1965",
+                            "lfc04": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "lfc08": "Vernal (Utah)",
+                            "frbrtype": "6",
+                            "frbrgroupid": "120256222",
+                            "language": "eng",
+                            "rsrctype": "images"
+                        },
+                        "links": {
+                            "linktorsrc": "$$Tdigcoll_uuu_11_linktores$$DOpen resource in a new window",
+                            "thumbnail": "$$Tdigcoll_uuu_11_linktothumb$$DSee Thumbnail"
+                        },
+                        "display": {
+                            "subject": "Construction--Heavy Equipment;",
+                            "rights": "Digital Image,copyright 2003 Uintah County Library",
+                            "format": "image/jpeg",
+                            "type": "Image",
+                            "creationdate": "1965",
+                            "lds17": "image",
+                            "lds08": "Vernal (Utah);",
+                            "lds18": "Image",
+                            "publisher": "Uintah County Library Regional History Center",
+                            "title": "Demolished Property",
+                            "lds12": "Vernal Express Newspaper; B&W Copy Negative and Print; 6 cm x 6 cm",
+                            "lds02": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "coverage": "Vernal (Utah);",
+                            "lds01": "University of Utah, J. Willard Marriott Library",
+                            "lds04": "Vernal (UT) Express Photograph Collection",
+                            "description": "The old Acre Motor West of Vernal is demolished by the City and County. The ground has been leased and made into a picnic area, east of Burger King and west of School ball park.",
+                            "lds03": "Uintah County (UT) Library",
+                            "language": "eng",
+                            "identifier": [
+                                "ucl_1219-02.tif",
+                                "http://content.lib.utah.edu/cdm/ref/collection/VE_Photos/id/4138"
+                            ]
+                        },
+                        "delivery": {
+                            "delcategory": "Online Resource",
+                            "institution": "MWDL"
+                        },
+                        "ranking": {
+                            "booster2": "1",
+                            "booster1": "1"
+                        }
+                    },
+                    "xmlns": "http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib"
+                },
+                "LINKS": {
+                    "linktorsrc": "http://content.lib.utah.edu/u?/VE_Photos,4138",
+                    "thumbnail": "http://content.lib.utah.edu/utils/getthumbnail/collection/VE_Photos/id/4138"
+                },
+                "RANK": "0.79999995",
+                "_id": "digcoll_uuu_11VE_Photos/4138",
+                "SEARCH_ENGINE_TYPE": "Local Search Engine",
+                "ID": "2008828",
+                "SEARCH_ENGINE": "Local Search Engine",
+                "GETIT": {
+                    "deliveryCategory": "Online Resource",
+                    "GetIt2": "http://sfx7.exlibrisgroup.com/uutah?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2013-04-12T21%3A09%3A26IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&rft_val_fmt=info:ofi/fmt:kev:mtx:&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=&rft.aulast=&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&rft.eisbn=&rft_dat=<digcoll_uuu_11>UU_Photo_Archives/42933</digcoll_uuu_11>&rft_id=info:oai/",
+                    "GetIt1": "http://content.lib.utah.edu/u?/UU_Photo_Archives,42933"
+                },
+                "NO": "254832"
+            },
+            "score": 1.1192079
+        },
+        {
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://research.archives.gov/description/6646639",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "hasView": [
+                {
+                    "format": "image/jpeg",
+                    "url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08611.jpeg"
+                }
+            ],
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "object": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08611_t.jpeg",
+            "id": "29129512e7b29ef815b7485586fe86fa",
+            "_rev": "1-29b6d785daaf1c4386caa0ebb6f84d72",
+            "ingestDate": "2013-04-12T04:47:39.389839",
+            "_id": "nara--6646639",
+            "sourceResource": {
+                "title": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "description": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "rights": "Restrictions: Unrestricted; Use status: Unrestricted",
+                "format": [
+                    "Magnetic Disk: Hard Drive",
+                    "Magnetic Disk"
+                ],
+                "collection": {
+                    "id": "df8bd84b8c0e542746b5d1ed57ab5fee",
+                    "title": "Records of the Office of the Secretary of Defense, 1921 - 2008",
+                    "@id": "http://dp.la/api/collections/df8bd84b8c0e542746b5d1ed57ab5fee"
+                },
+                "stateLocatedIn": {
+                    "name": "MD"
+                },
+                "isPartOf": "Series: Combined Military Service Digital Photographic Files, 1982 - 2007",
+                "date": {
+                    "displayDate": "01/12/2004",
+                    "end": "2004-01-12",
+                    "begin": "2004-01-12"
+                },
+                "type": "image",
+                "creator": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 -)"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/29129512e7b29ef815b7485586fe86fa",
+            "originalRecord": {
+                "use-restriction": {
+                    "use-status": "Unrestricted",
+                    "specific-use-restrictions": null
+                },
+                "created-timestamp": "1/20/2013 15:26:49",
+                "local-identifier-desc": "330-CFD-DF-SD-05-08611.jpeg",
+                "access-restriction": {
+                    "restriction-status": "Unrestricted",
+                    "specific-access-restrictions": null
+                },
+                "variant-control-numbers": {
+                    "variant-control-number": {
+                        "variant-type": "Agency-Assigned Identifier",
+                        "num": "1",
+                        "variant-number-desc": "DFSD0508611",
+                        "mlr": "false",
+                        "variant-number": "DFSD0508611"
+                    }
+                },
+                "indexable-dates": {
+                    "date-range": "[g_x64_30, g_x32_61, g_x4_495, g_x64_31, g_x16_123, b_x16_124, g_x32_62, g_x8_247, g_x16_125, b_x8_250, b_x2_991, g_x128_15]"
+                },
+                "title-date": "01/12/2004",
+                "parent": {
+                    "parent-id": "6274097",
+                    "parent-title": "Combined Military Service Digital Photographic Files, compiled 1982 - 2007, documenting the period ca. 1786 - 2007",
+                    "parent-lod": "Series"
+                },
+                "general-records-types": {
+                    "general-records-type": {
+                        "general-records-type-desc": "Photographs and other Graphic Materials",
+                        "general-records-type-id": "4237050",
+                        "num": "1"
+                    }
+                },
+                "arc-id-desc": "6646639",
+                "physical-occurrences": {
+                    "physical-occurrence": [
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "summary": "true",
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Reproduction-Reference",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk: Hard Drive"
+                                }
+                            }
+                        },
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Preservation",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creators": {
+                    "creator": [
+                        {
+                            "summary": "true",
+                            "creator-display": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 - )",
+                            "num": "1",
+                            "standard": "Y",
+                            "creator-type": "Most Recent",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1150972"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Defense Audiovisual Agency.\t (06/21/1979 - 09/30/1985)",
+                            "num": "2",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1123830"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Department of the Navy. Naval Imaging Command.\t (1988 - ca. 1993)",
+                            "num": "3",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1117407"
+                        }
+                    ]
+                },
+                "title-only": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "title": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "production-dates": {
+                    "production-date": "01/12/2004"
+                },
+                "scope-content-note": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "_id": "6646639",
+                "arc-id": "6646639",
+                "level-of-desc": {
+                    "lod-display": "Item",
+                    "level-id": "NAVI"
+                },
+                "parent-control-group": {
+                    "parent-control-lod": "Record Group",
+                    "parent-control-id": "330",
+                    "parent-control-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                },
+                "edited-timestamp": "[g_x64_242, g_x32_484, g_x8_1938, g_x4_3877, g_x16_969, b_x1_15511, g_x2_7755, g_x128_121]",
+                "hierarchy": {
+                    "hierarchy-item": [
+                        {
+                            "hierarchy-item-id": "6274097",
+                            "hierarchy-item-inclusive-dates": "1982 - 2007",
+                            "hierarchy-item-lod": "Series",
+                            "hierarchy-item-title": "Combined Military Service Digital Photographic Files, 1982 - 2007"
+                        },
+                        {
+                            "hierarchy-item-id": "643",
+                            "hierarchy-item-record-group-number": "330",
+                            "hierarchy-item-lod": "Record Group",
+                            "hierarchy-item-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                        }
+                    ]
+                },
+                "objects": {
+                    "object": {
+                        "thumbnail-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08611_t.jpeg",
+                        "num": "1",
+                        "object-sequence-number": "1",
+                        "mime-type": "image/jpeg",
+                        "file-size": "1429729",
+                        "file-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08611.jpeg"
+                    }
+                },
+                "local-identifier": "330-CFD-DF-SD-05-08611.jpeg"
+            },
+            "score": 0.9824567
+        },
+        {
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://research.archives.gov/description/6646638",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "hasView": [
+                {
+                    "format": "image/jpeg",
+                    "url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08610.jpeg"
+                }
+            ],
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "object": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08610_t.jpeg",
+            "id": "4c8ede4bd71ad63ed45b1a904e45080c",
+            "_rev": "1-b4dbcadad286b7e166e507f6f089fd81",
+            "ingestDate": "2013-04-12T04:46:22.680618",
+            "_id": "nara--6646638",
+            "sourceResource": {
+                "title": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "description": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "rights": "Restrictions: Unrestricted; Use status: Unrestricted",
+                "format": [
+                    "Magnetic Disk: Hard Drive",
+                    "Magnetic Disk"
+                ],
+                "collection": {
+                    "id": "df8bd84b8c0e542746b5d1ed57ab5fee",
+                    "title": "Records of the Office of the Secretary of Defense, 1921 - 2008",
+                    "@id": "http://dp.la/api/collections/df8bd84b8c0e542746b5d1ed57ab5fee"
+                },
+                "stateLocatedIn": {
+                    "name": "MD"
+                },
+                "isPartOf": "Series: Combined Military Service Digital Photographic Files, 1982 - 2007",
+                "date": {
+                    "displayDate": "01/12/2004",
+                    "end": "2004-01-12",
+                    "begin": "2004-01-12"
+                },
+                "type": "image",
+                "creator": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 -)"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/4c8ede4bd71ad63ed45b1a904e45080c",
+            "originalRecord": {
+                "use-restriction": {
+                    "use-status": "Unrestricted",
+                    "specific-use-restrictions": null
+                },
+                "created-timestamp": "1/20/2013 15:26:49",
+                "local-identifier-desc": "330-CFD-DF-SD-05-08610.jpeg",
+                "access-restriction": {
+                    "restriction-status": "Unrestricted",
+                    "specific-access-restrictions": null
+                },
+                "variant-control-numbers": {
+                    "variant-control-number": {
+                        "variant-type": "Agency-Assigned Identifier",
+                        "num": "1",
+                        "variant-number-desc": "DFSD0508610",
+                        "mlr": "false",
+                        "variant-number": "DFSD0508610"
+                    }
+                },
+                "indexable-dates": {
+                    "date-range": "[g_x64_30, g_x32_61, g_x4_495, g_x64_31, g_x16_123, b_x16_124, g_x32_62, g_x8_247, g_x16_125, b_x8_250, b_x2_991, g_x128_15]"
+                },
+                "title-date": "01/12/2004",
+                "parent": {
+                    "parent-id": "6274097",
+                    "parent-title": "Combined Military Service Digital Photographic Files, compiled 1982 - 2007, documenting the period ca. 1786 - 2007",
+                    "parent-lod": "Series"
+                },
+                "general-records-types": {
+                    "general-records-type": {
+                        "general-records-type-desc": "Photographs and other Graphic Materials",
+                        "general-records-type-id": "4237050",
+                        "num": "1"
+                    }
+                },
+                "arc-id-desc": "6646638",
+                "physical-occurrences": {
+                    "physical-occurrence": [
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "summary": "true",
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Reproduction-Reference",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk: Hard Drive"
+                                }
+                            }
+                        },
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Preservation",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creators": {
+                    "creator": [
+                        {
+                            "summary": "true",
+                            "creator-display": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 - )",
+                            "num": "1",
+                            "standard": "Y",
+                            "creator-type": "Most Recent",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1150972"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Defense Audiovisual Agency.\t (06/21/1979 - 09/30/1985)",
+                            "num": "2",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1123830"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Department of the Navy. Naval Imaging Command.\t (1988 - ca. 1993)",
+                            "num": "3",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1117407"
+                        }
+                    ]
+                },
+                "title-only": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "title": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "production-dates": {
+                    "production-date": "01/12/2004"
+                },
+                "scope-content-note": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "_id": "6646638",
+                "arc-id": "6646638",
+                "level-of-desc": {
+                    "lod-display": "Item",
+                    "level-id": "NAVI"
+                },
+                "parent-control-group": {
+                    "parent-control-lod": "Record Group",
+                    "parent-control-id": "330",
+                    "parent-control-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                },
+                "edited-timestamp": "[g_x64_242, g_x32_484, g_x8_1938, g_x4_3877, g_x16_969, b_x1_15511, g_x2_7755, g_x128_121]",
+                "hierarchy": {
+                    "hierarchy-item": [
+                        {
+                            "hierarchy-item-id": "6274097",
+                            "hierarchy-item-inclusive-dates": "1982 - 2007",
+                            "hierarchy-item-lod": "Series",
+                            "hierarchy-item-title": "Combined Military Service Digital Photographic Files, 1982 - 2007"
+                        },
+                        {
+                            "hierarchy-item-id": "643",
+                            "hierarchy-item-record-group-number": "330",
+                            "hierarchy-item-lod": "Record Group",
+                            "hierarchy-item-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                        }
+                    ]
+                },
+                "objects": {
+                    "object": {
+                        "thumbnail-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08610_t.jpeg",
+                        "num": "1",
+                        "object-sequence-number": "1",
+                        "mime-type": "image/jpeg",
+                        "file-size": "1513361",
+                        "file-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08610.jpeg"
+                    }
+                },
+                "local-identifier": "330-CFD-DF-SD-05-08610.jpeg"
+            },
+            "score": 0.9666641
+        },
+        {
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://research.archives.gov/description/6646637",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "hasView": [
+                {
+                    "format": "image/jpeg",
+                    "url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08609.jpeg"
+                }
+            ],
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "object": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08609_t.jpeg",
+            "id": "6a7a5b5e60a2714892273cc32be58705",
+            "_rev": "1-2a27e2a9c150be6ac308c27389e11249",
+            "ingestDate": "2013-04-12T04:46:31.265985",
+            "_id": "nara--6646637",
+            "sourceResource": {
+                "title": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "description": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "rights": "Restrictions: Unrestricted; Use status: Unrestricted",
+                "format": [
+                    "Magnetic Disk: Hard Drive",
+                    "Magnetic Disk"
+                ],
+                "collection": {
+                    "id": "df8bd84b8c0e542746b5d1ed57ab5fee",
+                    "title": "Records of the Office of the Secretary of Defense, 1921 - 2008",
+                    "@id": "http://dp.la/api/collections/df8bd84b8c0e542746b5d1ed57ab5fee"
+                },
+                "stateLocatedIn": {
+                    "name": "MD"
+                },
+                "isPartOf": "Series: Combined Military Service Digital Photographic Files, 1982 - 2007",
+                "date": {
+                    "displayDate": "01/12/2004",
+                    "end": "2004-01-12",
+                    "begin": "2004-01-12"
+                },
+                "type": "image",
+                "creator": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 -)"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/6a7a5b5e60a2714892273cc32be58705",
+            "originalRecord": {
+                "use-restriction": {
+                    "use-status": "Unrestricted",
+                    "specific-use-restrictions": null
+                },
+                "created-timestamp": "1/20/2013 15:27:36",
+                "local-identifier-desc": "330-CFD-DF-SD-05-08609.jpeg",
+                "access-restriction": {
+                    "restriction-status": "Unrestricted",
+                    "specific-access-restrictions": null
+                },
+                "variant-control-numbers": {
+                    "variant-control-number": {
+                        "variant-type": "Agency-Assigned Identifier",
+                        "num": "1",
+                        "variant-number-desc": "DFSD0508609",
+                        "mlr": "false",
+                        "variant-number": "DFSD0508609"
+                    }
+                },
+                "indexable-dates": {
+                    "date-range": "[g_x64_30, g_x32_61, g_x4_495, g_x64_31, g_x16_123, b_x16_124, g_x32_62, g_x8_247, g_x16_125, b_x8_250, b_x2_991, g_x128_15]"
+                },
+                "title-date": "01/12/2004",
+                "parent": {
+                    "parent-id": "6274097",
+                    "parent-title": "Combined Military Service Digital Photographic Files, compiled 1982 - 2007, documenting the period ca. 1786 - 2007",
+                    "parent-lod": "Series"
+                },
+                "general-records-types": {
+                    "general-records-type": {
+                        "general-records-type-desc": "Photographs and other Graphic Materials",
+                        "general-records-type-id": "4237050",
+                        "num": "1"
+                    }
+                },
+                "arc-id-desc": "6646637",
+                "physical-occurrences": {
+                    "physical-occurrence": [
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "summary": "true",
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Reproduction-Reference",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk: Hard Drive"
+                                }
+                            }
+                        },
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Preservation",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creators": {
+                    "creator": [
+                        {
+                            "summary": "true",
+                            "creator-display": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 - )",
+                            "num": "1",
+                            "standard": "Y",
+                            "creator-type": "Most Recent",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1150972"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Defense Audiovisual Agency.\t (06/21/1979 - 09/30/1985)",
+                            "num": "2",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1123830"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Department of the Navy. Naval Imaging Command.\t (1988 - ca. 1993)",
+                            "num": "3",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1117407"
+                        }
+                    ]
+                },
+                "title-only": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "title": "US Air Force (USAF) personnel with the 31st Civil Engineering Squadron (CES) Fire Department (FD) respond to a fire at the local Burger King at Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "production-dates": {
+                    "production-date": "01/12/2004"
+                },
+                "scope-content-note": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "_id": "6646637",
+                "arc-id": "6646637",
+                "level-of-desc": {
+                    "lod-display": "Item",
+                    "level-id": "NAVI"
+                },
+                "parent-control-group": {
+                    "parent-control-lod": "Record Group",
+                    "parent-control-id": "330",
+                    "parent-control-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                },
+                "edited-timestamp": "[g_x64_242, g_x32_484, g_x8_1938, g_x4_3877, g_x16_969, b_x1_15511, g_x2_7755, g_x128_121]",
+                "hierarchy": {
+                    "hierarchy-item": [
+                        {
+                            "hierarchy-item-id": "6274097",
+                            "hierarchy-item-inclusive-dates": "1982 - 2007",
+                            "hierarchy-item-lod": "Series",
+                            "hierarchy-item-title": "Combined Military Service Digital Photographic Files, 1982 - 2007"
+                        },
+                        {
+                            "hierarchy-item-id": "643",
+                            "hierarchy-item-record-group-number": "330",
+                            "hierarchy-item-lod": "Record Group",
+                            "hierarchy-item-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                        }
+                    ]
+                },
+                "objects": {
+                    "object": {
+                        "thumbnail-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08609_t.jpeg",
+                        "num": "1",
+                        "object-sequence-number": "1",
+                        "mime-type": "image/jpeg",
+                        "file-size": "1396137",
+                        "file-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08609.jpeg"
+                    }
+                },
+                "local-identifier": "330-CFD-DF-SD-05-08609.jpeg"
+            },
+            "score": 0.95580614
+        },
+        {
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://research.archives.gov/description/6646635",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "hasView": [
+                {
+                    "format": "image/jpeg",
+                    "url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08607.jpeg"
+                }
+            ],
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "object": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08607_t.jpeg",
+            "id": "331e1437891e05d5afa429aee7bc9421",
+            "_rev": "1-901444fe15481cd841a9dd4988b45c8b",
+            "ingestDate": "2013-04-12T04:45:47.252486",
+            "_id": "nara--6646635",
+            "sourceResource": {
+                "title": "The Burger King in Area 1 at Aviano Air Base (AB), Italy goes up in flames, destroying the structure",
+                "description": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "rights": "Restrictions: Unrestricted; Use status: Unrestricted",
+                "format": [
+                    "Magnetic Disk: Hard Drive",
+                    "Magnetic Disk"
+                ],
+                "collection": {
+                    "id": "df8bd84b8c0e542746b5d1ed57ab5fee",
+                    "title": "Records of the Office of the Secretary of Defense, 1921 - 2008",
+                    "@id": "http://dp.la/api/collections/df8bd84b8c0e542746b5d1ed57ab5fee"
+                },
+                "stateLocatedIn": {
+                    "name": "MD"
+                },
+                "isPartOf": "Series: Combined Military Service Digital Photographic Files, 1982 - 2007",
+                "date": {
+                    "displayDate": "01/12/2004",
+                    "end": "2004-01-12",
+                    "begin": "2004-01-12"
+                },
+                "type": "image",
+                "creator": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 -)"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/331e1437891e05d5afa429aee7bc9421",
+            "originalRecord": {
+                "use-restriction": {
+                    "use-status": "Unrestricted",
+                    "specific-use-restrictions": null
+                },
+                "created-timestamp": "1/20/2013 6:40:39",
+                "local-identifier-desc": "330-CFD-DF-SD-05-08607.jpeg",
+                "access-restriction": {
+                    "restriction-status": "Unrestricted",
+                    "specific-access-restrictions": null
+                },
+                "variant-control-numbers": {
+                    "variant-control-number": {
+                        "variant-type": "Agency-Assigned Identifier",
+                        "num": "1",
+                        "variant-number-desc": "DFSD0508607",
+                        "mlr": "false",
+                        "variant-number": "DFSD0508607"
+                    }
+                },
+                "indexable-dates": {
+                    "date-range": "[g_x64_30, g_x32_61, g_x4_495, g_x64_31, g_x16_123, b_x16_124, g_x32_62, g_x8_247, g_x16_125, b_x8_250, b_x2_991, g_x128_15]"
+                },
+                "title-date": "01/12/2004",
+                "parent": {
+                    "parent-id": "6274097",
+                    "parent-title": "Combined Military Service Digital Photographic Files, compiled 1982 - 2007, documenting the period ca. 1786 - 2007",
+                    "parent-lod": "Series"
+                },
+                "general-records-types": {
+                    "general-records-type": {
+                        "general-records-type-desc": "Photographs and other Graphic Materials",
+                        "general-records-type-id": "4237050",
+                        "num": "1"
+                    }
+                },
+                "arc-id-desc": "6646635",
+                "physical-occurrences": {
+                    "physical-occurrence": [
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "summary": "true",
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Reproduction-Reference",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk: Hard Drive"
+                                }
+                            }
+                        },
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Preservation",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creators": {
+                    "creator": [
+                        {
+                            "summary": "true",
+                            "creator-display": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 - )",
+                            "num": "1",
+                            "standard": "Y",
+                            "creator-type": "Most Recent",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1150972"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Defense Audiovisual Agency.\t (06/21/1979 - 09/30/1985)",
+                            "num": "2",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1123830"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Department of the Navy. Naval Imaging Command.\t (1988 - ca. 1993)",
+                            "num": "3",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1117407"
+                        }
+                    ]
+                },
+                "title-only": "The Burger King in Area 1 at Aviano Air Base (AB), Italy goes up in flames, destroying the structure",
+                "title": "The Burger King in Area 1 at Aviano Air Base (AB), Italy goes up in flames, destroying the structure",
+                "production-dates": {
+                    "production-date": "01/12/2004"
+                },
+                "scope-content-note": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "_id": "6646635",
+                "arc-id": "6646635",
+                "level-of-desc": {
+                    "lod-display": "Item",
+                    "level-id": "NAVI"
+                },
+                "parent-control-group": {
+                    "parent-control-lod": "Record Group",
+                    "parent-control-id": "330",
+                    "parent-control-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                },
+                "edited-timestamp": "[g_x64_242, g_x32_484, g_x8_1938, g_x4_3877, g_x16_969, b_x1_15511, g_x2_7755, g_x128_121]",
+                "hierarchy": {
+                    "hierarchy-item": [
+                        {
+                            "hierarchy-item-id": "6274097",
+                            "hierarchy-item-inclusive-dates": "1982 - 2007",
+                            "hierarchy-item-lod": "Series",
+                            "hierarchy-item-title": "Combined Military Service Digital Photographic Files, 1982 - 2007"
+                        },
+                        {
+                            "hierarchy-item-id": "643",
+                            "hierarchy-item-record-group-number": "330",
+                            "hierarchy-item-lod": "Record Group",
+                            "hierarchy-item-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                        }
+                    ]
+                },
+                "objects": {
+                    "object": {
+                        "thumbnail-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08607_t.jpeg",
+                        "num": "1",
+                        "object-sequence-number": "1",
+                        "mime-type": "image/jpeg",
+                        "file-size": "1516299",
+                        "file-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08607.jpeg"
+                    }
+                },
+                "local-identifier": "330-CFD-DF-SD-05-08607.jpeg"
+            },
+            "score": 0.9498752
+        },
+        {
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://research.archives.gov/description/6646640",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "hasView": [
+                {
+                    "format": "image/jpeg",
+                    "url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08612.jpeg"
+                }
+            ],
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "object": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08612_t.jpeg",
+            "id": "2918bd63926559c2e859a302386daa69",
+            "_rev": "1-c9e3de6e1049aac9166a1f1bb7347eaa",
+            "ingestDate": "2013-04-12T04:48:09.306271",
+            "_id": "nara--6646640",
+            "sourceResource": {
+                "title": "The Burger King in Area 1 at Aviano Air Base (AB), Italy goes up in flames, destroying the structure",
+                "description": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "rights": "Restrictions: Unrestricted; Use status: Unrestricted",
+                "format": [
+                    "Magnetic Disk: Hard Drive",
+                    "Magnetic Disk"
+                ],
+                "collection": {
+                    "id": "df8bd84b8c0e542746b5d1ed57ab5fee",
+                    "title": "Records of the Office of the Secretary of Defense, 1921 - 2008",
+                    "@id": "http://dp.la/api/collections/df8bd84b8c0e542746b5d1ed57ab5fee"
+                },
+                "stateLocatedIn": {
+                    "name": "MD"
+                },
+                "isPartOf": "Series: Combined Military Service Digital Photographic Files, 1982 - 2007",
+                "date": {
+                    "displayDate": "01/12/2004",
+                    "end": "2004-01-12",
+                    "begin": "2004-01-12"
+                },
+                "type": "image",
+                "creator": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 -)"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/2918bd63926559c2e859a302386daa69",
+            "originalRecord": {
+                "use-restriction": {
+                    "use-status": "Unrestricted",
+                    "specific-use-restrictions": null
+                },
+                "created-timestamp": "1/20/2013 15:27:1",
+                "local-identifier-desc": "330-CFD-DF-SD-05-08612.jpeg",
+                "access-restriction": {
+                    "restriction-status": "Unrestricted",
+                    "specific-access-restrictions": null
+                },
+                "variant-control-numbers": {
+                    "variant-control-number": {
+                        "variant-type": "Agency-Assigned Identifier",
+                        "num": "1",
+                        "variant-number-desc": "DFSD0508612",
+                        "mlr": "false",
+                        "variant-number": "DFSD0508612"
+                    }
+                },
+                "indexable-dates": {
+                    "date-range": "[g_x64_30, g_x32_61, g_x4_495, g_x64_31, g_x16_123, b_x16_124, g_x32_62, g_x8_247, g_x16_125, b_x8_250, b_x2_991, g_x128_15]"
+                },
+                "title-date": "01/12/2004",
+                "parent": {
+                    "parent-id": "6274097",
+                    "parent-title": "Combined Military Service Digital Photographic Files, compiled 1982 - 2007, documenting the period ca. 1786 - 2007",
+                    "parent-lod": "Series"
+                },
+                "general-records-types": {
+                    "general-records-type": {
+                        "general-records-type-desc": "Photographs and other Graphic Materials",
+                        "general-records-type-id": "4237050",
+                        "num": "1"
+                    }
+                },
+                "arc-id-desc": "6646640",
+                "physical-occurrences": {
+                    "physical-occurrence": [
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "summary": "true",
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Reproduction-Reference",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk: Hard Drive"
+                                }
+                            }
+                        },
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Preservation",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creators": {
+                    "creator": [
+                        {
+                            "summary": "true",
+                            "creator-display": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 - )",
+                            "num": "1",
+                            "standard": "Y",
+                            "creator-type": "Most Recent",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1150972"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Defense Audiovisual Agency.\t (06/21/1979 - 09/30/1985)",
+                            "num": "2",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1123830"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Department of the Navy. Naval Imaging Command.\t (1988 - ca. 1993)",
+                            "num": "3",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1117407"
+                        }
+                    ]
+                },
+                "title-only": "The Burger King in Area 1 at Aviano Air Base (AB), Italy goes up in flames, destroying the structure",
+                "title": "The Burger King in Area 1 at Aviano Air Base (AB), Italy goes up in flames, destroying the structure",
+                "production-dates": {
+                    "production-date": "01/12/2004"
+                },
+                "scope-content-note": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "_id": "6646640",
+                "arc-id": "6646640",
+                "level-of-desc": {
+                    "lod-display": "Item",
+                    "level-id": "NAVI"
+                },
+                "parent-control-group": {
+                    "parent-control-lod": "Record Group",
+                    "parent-control-id": "330",
+                    "parent-control-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                },
+                "edited-timestamp": "[g_x64_242, g_x32_484, g_x8_1938, g_x4_3877, g_x16_969, b_x1_15511, g_x2_7755, g_x128_121]",
+                "hierarchy": {
+                    "hierarchy-item": [
+                        {
+                            "hierarchy-item-id": "6274097",
+                            "hierarchy-item-inclusive-dates": "1982 - 2007",
+                            "hierarchy-item-lod": "Series",
+                            "hierarchy-item-title": "Combined Military Service Digital Photographic Files, 1982 - 2007"
+                        },
+                        {
+                            "hierarchy-item-id": "643",
+                            "hierarchy-item-record-group-number": "330",
+                            "hierarchy-item-lod": "Record Group",
+                            "hierarchy-item-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                        }
+                    ]
+                },
+                "objects": {
+                    "object": {
+                        "thumbnail-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08612_t.jpeg",
+                        "num": "1",
+                        "object-sequence-number": "1",
+                        "mime-type": "image/jpeg",
+                        "file-size": "1535407",
+                        "file-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08612.jpeg"
+                    }
+                },
+                "local-identifier": "330-CFD-DF-SD-05-08612.jpeg"
+            },
+            "score": 0.9423088
+        },
+        {
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://research.archives.gov/description/6646634",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "hasView": [
+                {
+                    "format": "image/jpeg",
+                    "url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08606.jpeg"
+                }
+            ],
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "object": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08606_t.jpeg",
+            "id": "421eb243be5396f3feba3c112897832b",
+            "_rev": "1-0f6e1c4cb87e67531da572e510e5ba02",
+            "ingestDate": "2013-04-12T04:50:30.024831",
+            "_id": "nara--6646634",
+            "sourceResource": {
+                "title": "US Air Force (USAF) SENIOR Airmen (SRA) James R. Sheu, Fire Fighter, 31st Civil Engineer Squadron (CES), one of the many firefighters who responded to the fire at the local Burger King in Area 1, Aviano Air Base (AB), Italy, heads off to retrieve an additional water hose. The fire destroyed the building",
+                "description": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "rights": "Restrictions: Unrestricted; Use status: Unrestricted",
+                "format": [
+                    "Magnetic Disk: Hard Drive",
+                    "Magnetic Disk"
+                ],
+                "collection": {
+                    "id": "df8bd84b8c0e542746b5d1ed57ab5fee",
+                    "title": "Records of the Office of the Secretary of Defense, 1921 - 2008",
+                    "@id": "http://dp.la/api/collections/df8bd84b8c0e542746b5d1ed57ab5fee"
+                },
+                "stateLocatedIn": {
+                    "name": "MD"
+                },
+                "isPartOf": "Series: Combined Military Service Digital Photographic Files, 1982 - 2007",
+                "date": {
+                    "displayDate": "01/12/2004",
+                    "end": "2004-01-12",
+                    "begin": "2004-01-12"
+                },
+                "type": "image",
+                "creator": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 -)"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/421eb243be5396f3feba3c112897832b",
+            "originalRecord": {
+                "use-restriction": {
+                    "use-status": "Unrestricted",
+                    "specific-use-restrictions": null
+                },
+                "created-timestamp": "1/19/2013 21:59:12",
+                "local-identifier-desc": "330-CFD-DF-SD-05-08606.jpeg",
+                "access-restriction": {
+                    "restriction-status": "Unrestricted",
+                    "specific-access-restrictions": null
+                },
+                "variant-control-numbers": {
+                    "variant-control-number": {
+                        "variant-type": "Agency-Assigned Identifier",
+                        "num": "1",
+                        "variant-number-desc": "DFSD0508606",
+                        "mlr": "false",
+                        "variant-number": "DFSD0508606"
+                    }
+                },
+                "indexable-dates": {
+                    "date-range": "[g_x64_30, g_x32_61, g_x4_495, g_x64_31, g_x16_123, b_x16_124, g_x32_62, g_x8_247, g_x16_125, b_x8_250, b_x2_991, g_x128_15]"
+                },
+                "title-date": "01/12/2004",
+                "parent": {
+                    "parent-id": "6274097",
+                    "parent-title": "Combined Military Service Digital Photographic Files, compiled 1982 - 2007, documenting the period ca. 1786 - 2007",
+                    "parent-lod": "Series"
+                },
+                "general-records-types": {
+                    "general-records-type": {
+                        "general-records-type-desc": "Photographs and other Graphic Materials",
+                        "general-records-type-id": "4237050",
+                        "num": "1"
+                    }
+                },
+                "arc-id-desc": "6646634",
+                "physical-occurrences": {
+                    "physical-occurrence": [
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "summary": "true",
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Reproduction-Reference",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk: Hard Drive"
+                                }
+                            }
+                        },
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Preservation",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creators": {
+                    "creator": [
+                        {
+                            "summary": "true",
+                            "creator-display": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 - )",
+                            "num": "1",
+                            "standard": "Y",
+                            "creator-type": "Most Recent",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1150972"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Defense Audiovisual Agency.\t (06/21/1979 - 09/30/1985)",
+                            "num": "2",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1123830"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Department of the Navy. Naval Imaging Command.\t (1988 - ca. 1993)",
+                            "num": "3",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1117407"
+                        }
+                    ]
+                },
+                "title-only": "US Air Force (USAF) SENIOR Airmen (SRA) James R. Sheu, Fire Fighter, 31st Civil Engineer Squadron (CES), one of the many firefighters who responded to the fire at the local Burger King in Area 1, Aviano Air Base (AB), Italy, heads off to retrieve an additional water hose. The fire destroyed the building",
+                "title": "US Air Force (USAF) SENIOR Airmen (SRA) James R. Sheu, Fire Fighter, 31st Civil Engineer Squadron (CES), one of the many firefighters who responded to the fire at the local Burger King in Area 1, Aviano Air Base (AB), Italy, heads off to retrieve an additional water hose. The fire destroyed the building",
+                "production-dates": {
+                    "production-date": "01/12/2004"
+                },
+                "scope-content-note": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "_id": "6646634",
+                "arc-id": "6646634",
+                "level-of-desc": {
+                    "lod-display": "Item",
+                    "level-id": "NAVI"
+                },
+                "parent-control-group": {
+                    "parent-control-lod": "Record Group",
+                    "parent-control-id": "330",
+                    "parent-control-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                },
+                "edited-timestamp": "[g_x64_242, g_x32_484, g_x4_3878, g_x8_1939, g_x16_969, g_x2_7756, b_x1_15512, g_x128_121]",
+                "hierarchy": {
+                    "hierarchy-item": [
+                        {
+                            "hierarchy-item-id": "6274097",
+                            "hierarchy-item-inclusive-dates": "1982 - 2007",
+                            "hierarchy-item-lod": "Series",
+                            "hierarchy-item-title": "Combined Military Service Digital Photographic Files, 1982 - 2007"
+                        },
+                        {
+                            "hierarchy-item-id": "643",
+                            "hierarchy-item-record-group-number": "330",
+                            "hierarchy-item-lod": "Record Group",
+                            "hierarchy-item-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                        }
+                    ]
+                },
+                "objects": {
+                    "object": {
+                        "thumbnail-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08606_t.jpeg",
+                        "num": "1",
+                        "object-sequence-number": "1",
+                        "mime-type": "image/jpeg",
+                        "file-size": "1420534",
+                        "file-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08606.jpeg"
+                    }
+                },
+                "local-identifier": "330-CFD-DF-SD-05-08606.jpeg"
+            },
+            "score": 0.7461386
+        },
+        {
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://research.archives.gov/description/6646636",
+            "dataProvider": "National Archives at College Park - Still Pictures",
+            "hasView": [
+                {
+                    "format": "image/jpeg",
+                    "url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08608.jpeg"
+                }
+            ],
+            "provider": {
+                "@id": "http://dp.la/api/contributor/nara",
+                "name": "National Archives and Records Administration"
+            },
+            "object": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08608_t.jpeg",
+            "id": "8e7a9ede396602fc95fd350b39eca893",
+            "_rev": "1-d4ad474e3d645d24a5e7ed14c34068a6",
+            "ingestDate": "2013-04-12T04:50:17.558029",
+            "_id": "nara--6646636",
+            "sourceResource": {
+                "title": "US Air Force (USAF) Firemen Airmen First Class (A1C) Brandon Nickerson and Charles Longsmith, 31st Civil Engineering Squadron (CES) leave the fire fighting area to take a rest after fighting a fire at the Burger King located in Area 1 on Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "description": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "rights": "Restrictions: Unrestricted; Use status: Unrestricted",
+                "format": [
+                    "Magnetic Disk: Hard Drive",
+                    "Magnetic Disk"
+                ],
+                "collection": {
+                    "id": "df8bd84b8c0e542746b5d1ed57ab5fee",
+                    "title": "Records of the Office of the Secretary of Defense, 1921 - 2008",
+                    "@id": "http://dp.la/api/collections/df8bd84b8c0e542746b5d1ed57ab5fee"
+                },
+                "stateLocatedIn": {
+                    "name": "MD"
+                },
+                "isPartOf": "Series: Combined Military Service Digital Photographic Files, 1982 - 2007",
+                "date": {
+                    "displayDate": "01/12/2004",
+                    "end": "2004-01-12",
+                    "begin": "2004-01-12"
+                },
+                "type": "image",
+                "creator": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 -)"
+            },
+            "ingestType": "item",
+            "@id": "http://dp.la/api/items/8e7a9ede396602fc95fd350b39eca893",
+            "originalRecord": {
+                "use-restriction": {
+                    "use-status": "Unrestricted",
+                    "specific-use-restrictions": null
+                },
+                "created-timestamp": "1/20/2013 0:52:5",
+                "local-identifier-desc": "330-CFD-DF-SD-05-08608.jpeg",
+                "access-restriction": {
+                    "restriction-status": "Unrestricted",
+                    "specific-access-restrictions": null
+                },
+                "variant-control-numbers": {
+                    "variant-control-number": {
+                        "variant-type": "Agency-Assigned Identifier",
+                        "num": "1",
+                        "variant-number-desc": "DFSD0508608",
+                        "mlr": "false",
+                        "variant-number": "DFSD0508608"
+                    }
+                },
+                "indexable-dates": {
+                    "date-range": "[g_x64_30, g_x32_61, g_x4_495, g_x64_31, g_x16_123, b_x16_124, g_x32_62, g_x8_247, g_x16_125, b_x8_250, b_x2_991, g_x128_15]"
+                },
+                "title-date": "01/12/2004",
+                "parent": {
+                    "parent-id": "6274097",
+                    "parent-title": "Combined Military Service Digital Photographic Files, compiled 1982 - 2007, documenting the period ca. 1786 - 2007",
+                    "parent-lod": "Series"
+                },
+                "general-records-types": {
+                    "general-records-type": {
+                        "general-records-type-desc": "Photographs and other Graphic Materials",
+                        "general-records-type-id": "4237050",
+                        "num": "1"
+                    }
+                },
+                "arc-id-desc": "6646636",
+                "physical-occurrences": {
+                    "physical-occurrence": [
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "summary": "true",
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Reproduction-Reference",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk: Hard Drive"
+                                }
+                            }
+                        },
+                        {
+                            "reference-units": {
+                                "reference-unit": {
+                                    "num": "1",
+                                    "phone": "301-837-0561",
+                                    "fax": "301-837-3621",
+                                    "email": "stillpixorder@nara.gov",
+                                    "mailcode": "RD-DC-S",
+                                    "name": "National Archives at College Park - Still Pictures",
+                                    "state": "MD",
+                                    "address1": "National Archives at College Park",
+                                    "address2": "8601 Adelphi Road",
+                                    "ref-id": "31",
+                                    "postcode": "20740-6001",
+                                    "city": "College Park"
+                                }
+                            },
+                            "copy-status": "Preservation",
+                            "media-occurrences": {
+                                "media-occurrence": {
+                                    "num": "1",
+                                    "media-type": "Magnetic Disk"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creators": {
+                    "creator": [
+                        {
+                            "summary": "true",
+                            "creator-display": "Department of Defense. American Forces Information Service. Defense Visual Information Center.\t(1994 - )",
+                            "num": "1",
+                            "standard": "Y",
+                            "creator-type": "Most Recent",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1150972"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Defense Audiovisual Agency.\t (06/21/1979 - 09/30/1985)",
+                            "num": "2",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1123830"
+                        },
+                        {
+                            "creator-display": "Department of Defense. Department of the Navy. Naval Imaging Command.\t (1988 - ca. 1993)",
+                            "num": "3",
+                            "standard": "Y",
+                            "creator-type": "Predecessor",
+                            "creator-record-type": "ORG",
+                            "creator-id": "1117407"
+                        }
+                    ]
+                },
+                "title-only": "US Air Force (USAF) Firemen Airmen First Class (A1C) Brandon Nickerson and Charles Longsmith, 31st Civil Engineering Squadron (CES) leave the fire fighting area to take a rest after fighting a fire at the Burger King located in Area 1 on Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "title": "US Air Force (USAF) Firemen Airmen First Class (A1C) Brandon Nickerson and Charles Longsmith, 31st Civil Engineering Squadron (CES) leave the fire fighting area to take a rest after fighting a fire at the Burger King located in Area 1 on Aviano Air Base (AB), Italy. The fire destroyed the building",
+                "production-dates": {
+                    "production-date": "01/12/2004"
+                },
+                "scope-content-note": "The original finding aid described this photograph as:\n\nBase: Aviano Air Base\n\nState: Pordenone\n\nCountry: Italy (ITA)\n\nScene Major Command Shown: USAFE\n\nScene Camera Operator: AMN Scherrie K. Gates, USAF\n\nRelease Status: Released to Public",
+                "_id": "6646636",
+                "arc-id": "6646636",
+                "level-of-desc": {
+                    "lod-display": "Item",
+                    "level-id": "NAVI"
+                },
+                "parent-control-group": {
+                    "parent-control-lod": "Record Group",
+                    "parent-control-id": "330",
+                    "parent-control-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                },
+                "edited-timestamp": "[g_x64_242, g_x32_484, g_x8_1938, g_x4_3877, g_x16_969, b_x1_15511, g_x2_7755, g_x128_121]",
+                "hierarchy": {
+                    "hierarchy-item": [
+                        {
+                            "hierarchy-item-id": "6274097",
+                            "hierarchy-item-inclusive-dates": "1982 - 2007",
+                            "hierarchy-item-lod": "Series",
+                            "hierarchy-item-title": "Combined Military Service Digital Photographic Files, 1982 - 2007"
+                        },
+                        {
+                            "hierarchy-item-id": "643",
+                            "hierarchy-item-record-group-number": "330",
+                            "hierarchy-item-lod": "Record Group",
+                            "hierarchy-item-title": "Records of the Office of the Secretary of Defense, 1921 - 2008"
+                        }
+                    ]
+                },
+                "objects": {
+                    "object": {
+                        "thumbnail-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08608_t.jpeg",
+                        "num": "1",
+                        "object-sequence-number": "1",
+                        "mime-type": "image/jpeg",
+                        "file-size": "1410652",
+                        "file-url": "http://media.nara.gov/stillpix/330-cfd/2005/DF-SD-05-08608.jpeg"
+                    }
+                },
+                "local-identifier": "330-CFD-DF-SD-05-08608.jpeg"
+            },
+            "score": 0.74528414
+        },
+        {
+            "ingestDate": "2013-04-13T02:25:03.353852",
+            "_rev": "1-f53a0e7d3c8541b0512dbdda44631e29",
+            "id": "0c52e55b5e7ab12a90d9735a999a9979",
+            "@context": {
+                "edm": "http://www.europeana.eu/schemas/edm/",
+                "isShownAt": "edm:isShownAt",
+                "dpla": "http://dp.la/terms/",
+                "dataProvider": "edm:dataProvider",
+                "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+                "state": "dpla:state",
+                "hasView": "edm:hasView",
+                "provider": "edm:provider",
+                "collection": "dpla:aggregation",
+                "object": "edm:object",
+                "stateLocatedIn": "dpla:stateLocatedIn",
+                "begin": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:dateRangeStart"
+                },
+                "@vocab": "http://purl.org/dc/terms/",
+                "LCSH": "http://id.loc.gov/authorities/subjects",
+                "sourceResource": "edm:sourceResource",
+                "name": "xsd:string",
+                "coordinates": "dpla:coordinates",
+                "end": {
+                    "@type": "xsd:date",
+                    "@id": "dpla:end"
+                },
+                "originalRecord": "dpla:originalRecord"
+            },
+            "isShownAt": "http://thoth.library.utah.edu:1701/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_uuu_11EHSL-FBWNOC/604",
+            "_id": "mwdl--digcoll_uuu_11EHSL-FBWNOC/604",
+            "dataProvider": "University of Utah - Spencer S. Eccles Health Sciences Library",
+            "sourceResource": {
+                "title": "Too Goode to be True",
+                "description": [
+                    "Diplopia",
+                    "A 40-year old female with diplopia and disorientation.",
+                    "VA: 20/20 OU",
+                    "Neoplastic glial cell infiltrate to the third and lateral ventricles.",
+                    "Surgery",
+                    "1. Daumas-Duport C, Scheithauer B, Chodkiewicz J, Laws E, Vedrenne C. Dysembryoplastic Neuroepithelial Tumor: A surgically curable tumor of young patients with intractable partial seizures. Neurosurgery. 1988;23:545-556. 2. Fujimoto K, Ohnishi H, Tsujimoto M, Hoshida T, Nakazato Y. Dysembryoplastic neuroepithelial tumor of the cerebellum and brainstem. J. Neurosurg. 2000;93:487-489. 3. Baisden B, Brat D, Melhem E, Rosenblum M, King A, Burger P. Dysembryoplastic neuroepithelial tumor-like neoplasm of the septum pellucidum: a lesion often misdiagnosed as glioma. Am J Surg Pathol. 2001;25:494-499. 4. Lee D, Chung C, Hwang Y, et al. Dysembryoplastic neuroepithelial tumor:radiological findings (including PET, SPECT, and MRS) and surgical strategy. Journal of Neuro-Oncology. 2000;47:167-174.",
+                    "No"
+                ],
+                "subject": [
+                    {
+                        "name": "Neoplasms, Neuroepithelial"
+                    },
+                    {
+                        "name": "Diplopia"
+                    },
+                    {
+                        "name": "Third Ventricle"
+                    },
+                    {
+                        "name": "Dysembryoplastic neuroepithelial tumor"
+                    }
+                ],
+                "relation": [
+                    "Is part of: Case 2, Session I, Walsh Session, NANOS 2002",
+                    "Is part of: Frank B. Walsh Collection, Neuro-ophthalmology Virtual Education Library: NOVEL",
+                    "Is referenced by: http://library.med.utah.edu/NOVEL/Walsh/",
+                    "Is referenced by: walsh_2002_s1_c2.pdf"
+                ],
+                "rights": "North American Neuro-Ophthalmology Association (NANOS), Copyright 2008. For further information regarding the rights to this collection, please visit http://library.med.utah.edu/NOVEL/about/copyright",
+                "isPartOf": "Neuro-Ophthalmology: Frank B. Walsh Society Archives",
+                "language": [
+                    {
+                        "iso639_3": "eng",
+                        "name": "English"
+                    }
+                ],
+                "stateLocatedIn": [
+                    {
+                        "name": "UT"
+                    }
+                ],
+                "collection": {
+                    "id": "fcd9663d450b786d938cc53ae732fa13",
+                    "title": "Mwdl",
+                    "@id": "http://dp.la/api/collections/fcd9663d450b786d938cc53ae732fa13"
+                },
+                "type": "text",
+                "date": {
+                    "displayDate": "2002",
+                    "end": "2002",
+                    "begin": "2002"
+                },
+                "identifier": "http://content.lib.utah.edu/u?/EHSL-FBWNOC,604",
+                "creator": "Mawn, Louise A"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "@id": "http://dp.la/api/items/0c52e55b5e7ab12a90d9735a999a9979",
+            "ingestType": "item",
+            "object": "http://content.lib.utah.edu/utils/getthumbnail/collection/EHSL-FBWNOC/id/604",
+            "originalRecord": {
+                "PrimoNMBib": {
+                    "record": {
+                        "control": {
+                            "originalsourceid": "604",
+                            "sourceid": "digcoll_uuu_11",
+                            "addsrcrecordid": "uuu-11-110-1181",
+                            "sourcedbandrecordid": "EHSL-FBWNOC",
+                            "sourceformat": "Digital Entity",
+                            "recordid": "digcoll_uuu_11EHSL-FBWNOC/604",
+                            "sourcesystem": "Other",
+                            "sourcerecordid": "EHSL-FBWNOC/604"
+                        },
+                        "sort": {
+                            "creationdate": "2002",
+                            "author": "Mawn, L",
+                            "title": "Too Goode to be True"
+                        },
+                        "addata": {
+                            "date": "2002",
+                            "pub": "Spencer S. Eccles Health Sciences Library, University of Utah"
+                        },
+                        "search": {
+                            "lsr04": "1181",
+                            "lsr13": "Neuro-Ophthalmology: Frank B. Walsh Society Archives",
+                            "addtitle": [
+                                "Is part of: Case 2, Session I, Walsh Session, NANOS 2002",
+                                "Is part of: Frank B. Walsh Collection, Neuro-ophthalmology Virtual Education Library: NOVEL",
+                                "Is referenced by: http://library.med.utah.edu/NOVEL/Walsh/",
+                                "Is referenced by: walsh_2002_s1_c2.pdf"
+                            ],
+                            "lsr03": "110",
+                            "lsr12": "University of Utah - Spencer S. Eccles Health Sciences Library",
+                            "lsr15": [
+                                "Case 2, Session I, Walsh Session, NANOS 2002",
+                                "Frank B. Walsh Collection, Neuro-ophthalmology Virtual Education Library: NOVEL"
+                            ],
+                            "lsr02": "11",
+                            "lsr01": "uuu",
+                            "scope": [
+                                "uu",
+                                "mw"
+                            ],
+                            "subject": [
+                                "Neoplasms, Neuroepithelial; Diplopia; Third Ventricle",
+                                "Dysembryoplastic neuroepithelial tumor"
+                            ],
+                            "lsr10": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "addsrcrecordid": "uuu-11-110-1181",
+                            "creationdate": "2002",
+                            "creatorcontrib": [
+                                "Mawn, Louise A.",
+                                "Mawn, Louise A.; Montine, Thomas J.; Knapp, Stefanie; Zhang, Jing"
+                            ],
+                            "title": "Too Goode to be True",
+                            "description": [
+                                "Diplopia",
+                                "A 40-year old female with diplopia and disorientation.",
+                                "VA: 20/20 OU",
+                                "Neoplastic glial cell infiltrate to the third and lateral ventricles.",
+                                "Surgery",
+                                "1. Daumas-Duport C, Scheithauer B, Chodkiewicz J, Laws E, Vedrenne C. Dysembryoplastic Neuroepithelial Tumor: A surgically curable tumor of young patients with intractable partial seizures. Neurosurgery. 1988;23:545-556. 2. Fujimoto K, Ohnishi H, Tsujimoto M, Hoshida T, Nakazato Y. Dysembryoplastic neuroepithelial tumor of the cerebellum and brainstem. J. Neurosurg. 2000;93:487-489. 3. Baisden B, Brat D, Melhem E, Rosenblum M, King A, Burger P. Dysembryoplastic neuroepithelial tumor-like neoplasm of the septum pellucidum: a lesion often misdiagnosed as glioma. Am J Surg Pathol. 2001;25:494-499. 4. Lee D, Chung C, Hwang Y, et al. Dysembryoplastic neuroepithelial tumor:radiological findings (including PET, SPECT, and MRS) and surgical strategy. Journal of Neuro-Oncology. 2000;47:167-174.",
+                                "no"
+                            ],
+                            "sourceid": "digcoll_uuu_11",
+                            "lsr09": "University of Utah, J. Willard Marriott Library",
+                            "recordid": "digcoll_uuu_11EHSL-FBWNOC/604",
+                            "rsrctype": "text"
+                        },
+                        "facets": {
+                            "genre": "unknown",
+                            "topic": [
+                                "Neoplasms, Neuroepithelial",
+                                "Diplopia",
+                                "Third Ventricle",
+                                "Dysembryoplastic neuroepithelial tumor"
+                            ],
+                            "prefilter": "text",
+                            "toplevel": "online_resources",
+                            "lfc01": "Neuro-Ophthalmology: Frank B. Walsh Society Archives",
+                            "format": "application/pdf",
+                            "lfc02": "University of Utah - Spencer S. Eccles Health Sciences Library",
+                            "collection": "Digital Collections",
+                            "lfc03": "University of Utah, J. Willard Marriott Library",
+                            "creationdate": "2002",
+                            "lfc04": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "creatorcontrib": "Mawn, Louise A.",
+                            "frbrtype": "6",
+                            "frbrgroupid": "120191756",
+                            "language": "eng",
+                            "rsrctype": "text"
+                        },
+                        "links": {
+                            "linktorsrc": "$$Tdigcoll_uuu_11_linktores$$DOpen resource in a new window",
+                            "thumbnail": "$$Tdigcoll_uuu_11_linktothumb$$DSee Thumbnail"
+                        },
+                        "display": {
+                            "subject": "Neoplasms, Neuroepithelial; Diplopia; Third Ventricle; Dysembryoplastic neuroepithelial tumor",
+                            "rights": "North American Neuro-Ophthalmology Association (NANOS), Copyright 2008. For further information regarding the rights to this collection, please visit http://library.med.utah.edu/NOVEL/about/copyright",
+                            "relation": [
+                                "Is part of: Case 2, Session I, Walsh Session, NANOS 2002",
+                                "Is part of: Frank B. Walsh Collection, Neuro-ophthalmology Virtual Education Library: NOVEL",
+                                "Is referenced by: http://library.med.utah.edu/NOVEL/Walsh/",
+                                "Is referenced by: walsh_2002_s1_c2.pdf"
+                            ],
+                            "format": "application/pdf",
+                            "type": "Text",
+                            "creationdate": "2002",
+                            "lds17": "text",
+                            "lds18": "Text",
+                            "publisher": "Spencer S. Eccles Health Sciences Library, University of Utah",
+                            "creator": "Mawn, Louise A.",
+                            "title": "Too Goode to be True",
+                            "lds12": "28th Annual North American Neuro-Ophthalmology Society Meeting, Frank B. Walsh Session CD-ROM",
+                            "lds02": "University of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository",
+                            "lds01": "University of Utah, J. Willard Marriott Library",
+                            "lds04": "Neuro-Ophthalmology: Frank B. Walsh Society Archives",
+                            "description": [
+                                "Diplopia",
+                                "A 40-year old female with diplopia and disorientation.",
+                                "VA: 20/20 OU",
+                                "Neoplastic glial cell infiltrate to the third and lateral ventricles.",
+                                "Surgery",
+                                "1. Daumas-Duport C, Scheithauer B, Chodkiewicz J, Laws E, Vedrenne C. Dysembryoplastic Neuroepithelial Tumor: A surgically curable tumor of young patients with intractable partial seizures. Neurosurgery. 1988;23:545-556. 2. Fujimoto K, Ohnishi H, Tsujimoto M, Hoshida T, Nakazato Y. Dysembryoplastic neuroepithelial tumor of the cerebellum and brainstem. J. Neurosurg. 2000;93:487-489. 3. Baisden B, Brat D, Melhem E, Rosenblum M, King A, Burger P. Dysembryoplastic neuroepithelial tumor-like neoplasm of the septum pellucidum: a lesion often misdiagnosed as glioma. Am J Surg Pathol. 2001;25:494-499. 4. Lee D, Chung C, Hwang Y, et al. Dysembryoplastic neuroepithelial tumor:radiological findings (including PET, SPECT, and MRS) and surgical strategy. Journal",
+                                "no"
+                            ],
+                            "contributor": "Mawn, Louise A.; Montine, Thomas J.; Knapp, Stefanie; Zhang, Jing",
+                            "lds03": "University of Utah - Spencer S. Eccles Health Sciences Library",
+                            "language": "eng",
+                            "identifier": [
+                                "walsh_2002_s1_c2",
+                                "http://content.lib.utah.edu/cdm/ref/collection/EHSL-FBWNOC/id/604"
+                            ]
+                        },
+                        "delivery": {
+                            "delcategory": "Online Resource",
+                            "institution": "MWDL"
+                        },
+                        "ranking": {
+                            "booster2": "1",
+                            "booster1": "1"
+                        }
+                    },
+                    "xmlns": "http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib"
+                },
+                "LINKS": {
+                    "linktorsrc": "http://content.lib.utah.edu/u?/EHSL-FBWNOC,604",
+                    "thumbnail": "http://content.lib.utah.edu/utils/getthumbnail/collection/EHSL-FBWNOC/id/604"
+                },
+                "RANK": "0.79999995",
+                "_id": "digcoll_uuu_11EHSL-FBWNOC/604",
+                "SEARCH_ENGINE_TYPE": "Local Search Engine",
+                "ID": "2048234",
+                "SEARCH_ENGINE": "Local Search Engine",
+                "GETIT": {
+                    "deliveryCategory": "Online Resource",
+                    "GetIt2": "http://sfx7.exlibrisgroup.com/uutah?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2013-04-13T00%3A23%3A10IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&rft_val_fmt=info:ofi/fmt:kev:mtx:&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=&rft.aulast=&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&rft.eisbn=&rft_dat=<digcoll_uuu_11>DC_Beckwith/1681</digcoll_uuu_11>&rft_id=info:oai/",
+                    "GetIt1": "http://content.lib.utah.edu/u?/DC_Beckwith,1681"
+                },
+                "NO": "294238"
+            },
+            "score": 0.7436105
+        }
+    ],
+    "facets": []
+}

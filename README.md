@@ -19,6 +19,7 @@ You can create a query object using a parameter hash:
 
 ```ruby
 DPLA::Query.new :title => 'fruit'
+DPLA::Query.new :title => 'fruit', :facets =>  ['sourceResource.spatial.coordinates:42.3:-71:20mi', 'sourceResource.spatial.state']
 ```
 
 The actual records themselves are accessible via the `#results` instance method, which returns an array of results. At the moment, those are returned in pages of 100. To access the next page, use the `#next_page` instance method, or `#fetch_page` to fetch an arbitrary page. You can also `#rewind` to go back to the first page.
