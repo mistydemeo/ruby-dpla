@@ -18,4 +18,14 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'httparty', '>= 0.9.0'
+  gem.add_dependency "activesupport"
+  
+  gem.add_development_dependency "bundler",      "~> 1.0"
+  gem.add_development_dependency "shoulda"
+  gem.add_development_dependency "mocha",        "~> 0.13"
+  gem.add_development_dependency "minitest",     "~> 2.12"
+  gem.add_development_dependency "simplecov"
+  gem.add_development_dependency "turn",        "~> 0.9"
+  gem.add_development_dependency "webmock"
+  
 end

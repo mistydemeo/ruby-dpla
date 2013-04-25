@@ -1,3 +1,3 @@
 module DPLA
-  class ParameterError < StandardError; end
+  class ParameterError < StandardError; end  
 end
